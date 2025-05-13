@@ -34,6 +34,6 @@ Expect new features, better responsiveness, and UI upgrades in future updates.
 ---
 ## 📸 Preview
 
-👉 [Live Preview](https://whosfatima.github.io/Tailwind-Project/)
+👉 [Live Preview]( https://whosfatima.github.io/modern-store-template/)
 
 
