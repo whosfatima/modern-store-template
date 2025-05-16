@@ -12,7 +12,7 @@
   </head>
   <body class="font-[Lalezar]">
     <header>
-      <!-- whole header --> 
+      <!-- whole header -->
       <nav class="flex justify-between py-0 px-16 items-center text-xl">
         <!-- right -->
         <div>
@@ -43,25 +43,31 @@
           </div>
         </div>
       </nav>
-      <section>
-        <div> 
-          <div id="slide1">
-            <img src="./img/s1.jpg" alt="">
-          <span>آهنگ هارو زنده تر ازون چیزی که هستن گوش بده.</span>
+      <section class="relative">
+        <div>
+          <div id="slide1" class="relative block">
+            <img src="./img/s1.jpg" alt="" />
+            <span class="absolute"
+              >آهنگ هارو زنده تر ازون چیزی که هستن گوش بده.</span
+            >
           </div>
-          <div id="slide2">
-                <img src="./img/s2.jpg" alt="">
-          <span>آهنگ هارو زنده تر ازون چیزی که هستن گوش بده.</span>
+          <div id="slide2" class="relative hidden">
+            <img src="./img/s2.jpg" alt="" />
+            <span class="absolute"
+              >آهنگ هارو زنده تر ازون چیزی که هستن گوش بده.</span
+            >
           </div>
-          <div id="slide3">
-                <img src="./img/s3.jpg" alt="">
-          <span>آهنگ هارو زنده تر ازون چیزی که هستن گوش بده.</span>
+          <div id="slide3" class="relative hidden">
+            <img src="./img/s3.jpg" alt="" />
+            <span class="absolute"
+              >آهنگ هارو زنده تر ازون چیزی که هستن گوش بده.</span
+            >
           </div>
         </div>
-        <div>
-          <i class="fas fa-circle"></i>
-          <i class="fas fa-circle"></i>
-          <i class="fas fa-circle"></i>
+        <div class="absolute bottom-[20px] left-3 text-white cursor-pointer z-10">
+          <i class="fas fa-circle p-1"></i>
+          <i class="fas fa-circle p-1"></i>
+          <i class="fas fa-circle p-1"></i>
         </div>
       </section>
     </header>
