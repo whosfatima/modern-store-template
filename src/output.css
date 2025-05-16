@@ -172,29 +172,20 @@
   .relative {
     position: relative;
   }
-  .bottom-3 {
-    bottom: calc(var(--spacing) * 3);
+  .top-\[40\%\] {
+    top: 40%;
   }
-  .bottom-6 {
-    bottom: calc(var(--spacing) * 6);
-  }
-  .bottom-8 {
-    bottom: calc(var(--spacing) * 8);
+  .right-\[10\%\] {
+    right: 10%;
   }
   .bottom-\[20px\] {
     bottom: 20px;
   }
-  .bottom-\[30px\] {
-    bottom: 30px;
-  }
-  .left-1 {
-    left: calc(var(--spacing) * 1);
-  }
   .left-3 {
     left: calc(var(--spacing) * 3);
   }
-  .z-1 {
-    z-index: 1;
+  .left-10 {
+    left: calc(var(--spacing) * 10);
   }
   .z-10 {
     z-index: 10;
@@ -254,9 +245,6 @@
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
-  .p-2 {
-    padding: calc(var(--spacing) * 2);
-  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -300,6 +288,83 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .hover\:text-\[\#\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #;
+      }
+    }
+  }
+  .hover\:text-\[\#fff\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #fff;
+      }
+    }
+  }
+  .hover\:text-\[rgb\(209\,132\,132\)\] {
+    &:hover {
+      @media (hover: hover) {
+        color: rgb(209,132,132);
+      }
+    }
+  }
+  .hover\:text-\[rgba\(197\,190\,190\,0\.32\)\] {
+    &:hover {
+      @media (hover: hover) {
+        color: rgba(197,190,190,0.32);
+      }
+    }
+  }
+  .hover\:text-\[rgba\(197\,190\,190\,0\.62\)\] {
+    &:hover {
+      @media (hover: hover) {
+        color: rgba(197,190,190,0.62);
+      }
+    }
+  }
+  .hover\:text-\[rgba\(209\,132\,132\,0\.62\)\] {
+    &:hover {
+      @media (hover: hover) {
+        color: rgba(209,132,132,0.62);
+      }
+    }
+  }
+  .hover\:text-\[rgba\(212\,203\,203\,0\.62\)\] {
+    &:hover {
+      @media (hover: hover) {
+        color: rgba(212,203,203,0.62);
+      }
+    }
+  }
+  .hover\:text-\[rgba\(255\,190\,190\,0\.32\)\] {
+    &:hover {
+      @media (hover: hover) {
+        color: rgba(255,190,190,0.32);
+      }
+    }
+  }
+  .hover\:text-\[rgba\(255\,255\,190\,0\.32\)\] {
+    &:hover {
+      @media (hover: hover) {
+        color: rgba(255,255,190,0.32);
+      }
+    }
+  }
+  .hover\:text-\[rgba\(255\,255\,255\,0\.4\)\] {
+    &:hover {
+      @media (hover: hover) {
+        color: rgba(255,255,255,0.4);
+      }
+    }
+  }
+  .hover\:text-\[rgba\(255\,255\,255\,0\.32\)\] {
+    &:hover {
+      @media (hover: hover) {
+        color: rgba(255,255,255,0.32);
+      }
+    }
   }
 }
 @property --tw-border-style {
