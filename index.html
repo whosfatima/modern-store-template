@@ -43,38 +43,37 @@
           </div>
         </div>
       </nav>
-      <section class="relative">
-        <div>
-          <div id="slide1" class="relative block">
+      <section class="relative slider">
+        <div class="slides">
+          <div id="slide1" class="item relative block active">
             <img class="w-[100%]" src="./img/s1.jpg" alt="" />
-            <span
-              class="absolute right-[10%] top-[40%] text-[#333] text-[1.5rem]"
+            <span class="absolute right-[10%] top-[40%] text-[#333] text-2xl"
               >آهنگ هارو زنده تر ازون چیزی که هستن گوش بده.</span
             >
           </div>
-          <div id="slide2" class="relative hidden">
+          <div id="slide2" class="item relative hidden">
             <img src="./img/s2.jpg" alt="" />
-            <span class="absolute"
-              >آهنگ هارو زنده تر ازون چیزی که هستن گوش بده.</span
+            <span class="absolute right-[10%] top-[40%] text-gray-300 text-2xl"
+              >رویاهاتو با صدای بلند گوش بده.</span
             >
           </div>
-          <div id="slide3" class="relative hidden">
+          <div id="slide3" class="item relative hidden">
             <img src="./img/s3.jpg" alt="" />
-            <span class="absolute"
-              >آهنگ هارو زنده تر ازون چیزی که هستن گوش بده.</span
+            <span class="absolute right-[10%] top-[40%] text-[#333] text-2xl"
+              >کیفیت صدایی که همیشه دنبالش بودی اینجاست.</span
             >
           </div>
         </div>
         <div
           class="absolute bottom-[20px] left-10 text-white cursor-pointer z-10"
         >
-          <i class="fas fa-circle p-1 hover:text-[rgba(255,255,255,0.4)]"></i>
-          <i class="fas fa-circle p-1 hover:text-[rgba(255,255,255,0.4)]"></i>
-          <i class="fas fa-circle p-1 hover:text-[rgba(255,255,255,0.4)]"></i>
+          <i onclick="setSlide('slide1', 1)" class="fas fa-circle p-1 hover:text-[rgba(255,255,255,0.4)]"></i>
+          <i onclick="setSlide('slide2', 2)"  class="fas fa-circle p-1 hover:text-[rgba(255,255,255,0.4)]"></i>
+          <i onclick="setSlide('slide3', 3)"  class="fas fa-circle p-1 hover:text-[rgba(255,255,255,0.4)]"></i>
         </div>
       </section>
     </header>
 
-    <script src="./js/script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
