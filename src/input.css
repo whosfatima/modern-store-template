@@ -1,2 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 @import "tailwindcss";
+.slider .slides .active{
+    display: block;
+    animation-name: fadeIn ;
+    animation-duration: 2s;
+}
